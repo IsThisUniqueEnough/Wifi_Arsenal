@@ -1,6 +1,6 @@
 // WifiArsenal Toolkit
-// Use this toolkit to use wifi networks as consumable resources you can burn if you suspect you IP leaked.
-// Will scan networks from fastest to slowest to fill up the database as quick as possible
+// Use this toolkit to use wifi networks as consumable resources you can burn if you suspect your IP leaked.
+// Will scan networks from high power to low to fill up the database as quickly as possible
 
 
 WifiArsenal = {}
