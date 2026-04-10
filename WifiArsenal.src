@@ -224,7 +224,7 @@ WifiArsenal.opt_list = function()
             print("  <color=#aaaaaa>[ None ]</color>")
         else
             for net in usableNets
-                print("  " + net.id + " (" + net.signal + "%)")
+                print("  " + net.id + " (" + net.signal + "%) = " + net.pass)
             end for
         end if
         
@@ -233,7 +233,7 @@ WifiArsenal.opt_list = function()
             print("  <color=#aaaaaa>[ None ]</color>")
         else
             for idx in range(0, burnedNets.len - 1)
-                print("  [" + idx + "] " + burnedNets[idx].id)
+                print("  [" + idx + "] " + burnedNets[idx].id + " = " + burnedNets[idx].pass)
             end for
         end if
         
